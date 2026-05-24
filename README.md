@@ -52,7 +52,7 @@ Fake-News-App/
 
 Limitations
 
-* Works best with **formal news-style text (Reuters-like)**
+* Works best with formal news-style text (Reuters-like)
 * May give low confidence on:
 
   * Informal language
