@@ -35,7 +35,8 @@ Tech Stack
 Project Structure
 ```
 Fake-News-App/
-│
+
+
 ├── train_model.py      # Train model (run once)
 
 ├── app.py              # Streamlit web app
