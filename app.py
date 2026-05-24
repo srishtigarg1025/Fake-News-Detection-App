@@ -20,10 +20,12 @@ def predict_news(news):
     prob = model.predict_proba(vec)[0]
     confidence = prob[pred]
 
-    if confidence < 0.5:
-        status = "⚠️ Uncertain"
+    if confidence < 0.6:
+       status = "⚠️ Uncertain"
+    elif confidence < 0.75:
+       status = "🟡 Low Confidence"
     else:
-        status = "✅ Real" if pred == 1 else "❌ Fake"
+       status = "✅ Real" if pred == 1 else "❌ Fake"
 
     return status, round(confidence * 100, 2)
 
