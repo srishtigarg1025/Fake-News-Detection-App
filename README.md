@@ -6,9 +6,7 @@ A Machine Learning + NLP powered web application that classifies news articles a
 🔗 Live App:  https://fake-news-detection-app-duo3p6gmursmat3g3k24gx.streamlit.app/
 
 ```
-
 Features
-
 ```
 
 - Classifies news as **Real / Fake / Uncertain**
@@ -19,9 +17,7 @@ Features
 - Clean and interactive UI
 
 ```
-
 Tech Stack
-
 ```
 
 - **Frontend:** Streamlit
@@ -36,22 +32,22 @@ Tech Stack
   * pickle
 
 ```
-
 Project Structure
-
 ```
 Fake-News-App/
 │
 ├── train_model.py      # Train model (run once)
+
 ├── app.py              # Streamlit web app
+
 ├── model.pkl           # Saved ML model
+
 ├── vectorizer.pkl      # Saved TF-IDF vectorizer
+
 ├── requirements.txt    # Dependencies
+
 └── README.md
 ```
-
-
----
 
 Limitations
 
@@ -62,9 +58,7 @@ Limitations
   * Very short text
   * Regional news (e.g., local Indian news)
 
----
-
-🚀 Future Enhancements
+Future Enhancements
 
 * 🔍 Explainable AI (why prediction?)
 * 🌍 Better support for Indian/local news
@@ -72,11 +66,4 @@ Limitations
 * 📊 Confidence visualization (progress bar)
 * 🌐 Multi-language support
 
----
 
-
----
-
-If you want 🔥 next-level README (with badges, gifs, animations, recruiter-style polish), say:
-
-👉 “make it premium”
